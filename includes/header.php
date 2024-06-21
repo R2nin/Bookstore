@@ -1,3 +1,12 @@
+<?php
+
+    session_start();
+
+    define("APPURL", "http://localhost/bookstore/");
+
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>

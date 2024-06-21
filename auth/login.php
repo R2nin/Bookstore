@@ -1,11 +1,7 @@
 <?php require "../includes/header.php"; ?>
 <?php require "../config/config.php"; ?>
 <?php 
-
-   
-
-   
-
+ 
     
     if(isset($_POST['submit'])) {
 
@@ -24,20 +20,14 @@
             if($login->rowCount() > 0) {
 
                 if(password_verify($password, $fetch['mypassword'])) {
-                    
-                    $_SESSION['username'] = $fetch['username'];
-                    $_SESSION['user_id'] = $fetch['id'];
-                    $_SESSION['email'] = $fetch['email'];
-                 
-                    header("location: ".APPURL."");
-
+                    echo "LOGGED IN";
                 } else {
                     echo "<script>alert('password or email are wrong');</script>";
 
                 }
             } else {
                 echo "<script>alert('password or email are wrong');</script>";
-
+                
             }
 
         }
