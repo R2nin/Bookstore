@@ -3,7 +3,12 @@
 <?php 
 
 
-        if(isset($_POST['submit'])) {
+    if(isset($_SESSION['username'])) {
+        header("location: ".APPURL."");
+    }
+
+
+    if(isset($_POST['submit'])) {
 
         if(empty($_POST['username']) OR empty($_POST['email']) OR empty($_POST['password'])) {
             echo "<script>alert('one or more inputs are empty');</script>";
@@ -71,7 +76,7 @@
         <div class="row justify-content-center">
             <div class="col-md-6">
                 <form class="form-control mt-5" method="POST" action="register.php">
-                    <h4 class="text-center mt-3"> Registrar </h4>
+                    <h4 class="text-center mt-3"> Register </h4>
                     <div class="">
                         <label for="" class="col-sm-2 col-form-label">Username</label>
                         <div class="">
