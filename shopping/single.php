@@ -46,13 +46,13 @@
 
 
         //getting id for wishlist   
-       // if(isset($_SESSION['user_id'])) {
-        //    $select_wishlist = $conn->query("SELECT * FROM wishlist WHERE pro_id = '$id' AND user_id='$_SESSION[user_id]'");
-        //    $select_wishlist->execute();
+        if(isset($_SESSION['user_id'])) {
+            $select_wishlist = $conn->query("SELECT * FROM wishlist WHERE pro_id = '$id' AND user_id='$_SESSION[user_id]'");
+            $select_wishlist->execute();
 
-          //    $fetch = $select_wishlist->fetch(PDO::FETCH_OBJ);
-        //}  //    $fetch = $select_wishlist->fetch(PDO::FETCH_OBJ);
-        //}
+              $fetch = $select_wishlist->fetch(PDO::FETCH_OBJ);
+        }      $fetch = $select_wishlist->fetch(PDO::FETCH_OBJ);
+        
   
 
         //getting data for every product
