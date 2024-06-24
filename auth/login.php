@@ -1,7 +1,14 @@
 <?php require "../includes/header.php"; ?>
 <?php require "../config/config.php"; ?>
 <?php 
- 
+
+   
+
+   
+
+    if(isset($_SESSION['username'])) {
+        header("location: ".APPURL."");
+    }
     
     if(isset($_POST['submit'])) {
 
@@ -23,6 +30,8 @@
                     
                     $_SESSION['username'] = $fetch['username'];
                     $_SESSION['user_id'] = $fetch['id'];
+                    $_SESSION['email'] = $fetch['email'];
+                 
                     header("location: ".APPURL."");
 
                 } else {
