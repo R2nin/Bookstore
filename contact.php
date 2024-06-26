@@ -2,10 +2,9 @@
 <section class="mb-4">
 
     <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+    <h2 class="h1-responsive font-weight-bold text-center my-4">Formulário de Contato</h2>
     <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+    <p class="text-center w-responsive mx-auto mb-5">Você tem alguma pergunta? Não hesite em nos contactar. Iremos retornar o mais rápido possível</p>
 
     <div class="row">
 
@@ -80,15 +79,15 @@
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>San Francisco, CA 94126, USA</p>
+                    <p>Assis - SP - CEP 19802-320</p>
                 </li>
 
                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 01 234 567 89</p>
+                    <p>+ 55 18 981060708</p>
                 </li>
 
                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>contact@mdbootstrap.com</p>
+                    <p>arthur.miura@gmail.com</p>
                 </li>
             </ul>
         </div>
