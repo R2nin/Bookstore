@@ -51,7 +51,7 @@
             $select_wishlist->execute();
 
               $fetch = $select_wishlist->fetch(PDO::FETCH_OBJ);
-        }      $fetch = $select_wishlist->fetch(PDO::FETCH_OBJ);
+        }      
         
   
 
