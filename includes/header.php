@@ -52,7 +52,7 @@
             <a class="nav-link active  text-white" aria-current="page" href="<?php echo APPURL; ?>">Home</a>
             </li>
             <li class="nav-item ">
-            <a class="nav-link  text-white" href="<?php echo APPURL; ?>/contact.php">Contact</a>
+            <a class="nav-link  text-white" href="<?php echo APPURL; ?>/contact.php">Fale Conosco</a>
             </li>
             <li class="nav-item">
             <a class="nav-link active  text-white" aria-current="page" href="<?php echo APPURL; ?>/categories/index.php">Categories</a>
@@ -80,7 +80,7 @@
                     <a class="nav-link  text-white" href="<?php echo APPURL; ?>/auth/login.php">Login</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link  text-white" href="<?php echo APPURL; ?>/auth/register.php">Register</a>
+                    <a class="nav-link  text-white" href="<?php echo APPURL; ?>/auth/register.php">Registrar</a>
                 </li>
             <?php endif; ?>
         </ul>
