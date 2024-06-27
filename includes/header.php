@@ -55,7 +55,7 @@
             <a class="nav-link  text-white" href="<?php echo APPURL; ?>/contact.php">Fale Conosco</a>
             </li>
             <li class="nav-item">
-            <a class="nav-link active  text-white" aria-current="page" href="<?php echo APPURL; ?>/categories/index.php">Categories</a>
+            <a class="nav-link active  text-white" aria-current="page" href="<?php echo APPURL; ?>/categories/index.php">Categorias</a>
             </li>
 
             <?php if(isset($_SESSION['username'])) : ?>
