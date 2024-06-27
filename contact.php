@@ -79,15 +79,14 @@
         <div class="col-md-3 text-center">
             <ul class="list-unstyled mb-0">
                 <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                    <p>Assis - SP - CEP 19802-320</p>
-                </li>
+                <a href="https://goo.gl/maps/kG7XrCEzWfVCzuyj7"> Assis - SP - CEP 19802-320<</a>             </li>
 
                 <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                    <p>+ 55 18 981060708</p>
+                    <p><a href="https://wa.me/5518981069798">WhatsApp</a></p>
                 </li>
 
                 <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                    <p>arthur.miura@gmail.com</p>
+                <a href="mailto:arthur.miura@gmail.com?subject=Formulario KoobE">arthur.miura@gmail.com</a>
                 </li>
             </ul>
         </div>
