@@ -9,6 +9,8 @@
     $categories = $select->fetchAll(PDO::FETCH_OBJ);
 
 ?>
+    <!-- Título Categoria adicionado aqui -->
+    <h1 class="text-center my-4">Categorias</h1>
         <div class="row mt-5">
 
             <?php foreach($categories as $category) : ?>

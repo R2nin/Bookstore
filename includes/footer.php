@@ -10,7 +10,7 @@
                <h5 class="text-uppercase">KooBE</h5>
 
                <p>
-               A Livraria KooBE (Brincadeira com o título "Seja Legal" em inglês (Be Cool - KooBE, lendo-se de trás para frente, vira Ebook) tem como missão editar e dar visibilidade às obras técnicas de eautores que estão chegando ao mercado, bem como veteranos com seu Story Telling. Essa mescla de autores, com suas experiências e conhecimentos, trazem ao mercado uma gama de obras que atendem a todos os gostos e necessidades.
+               A Livraria KooBE (Brincadeira com o título "Seja Legal" em inglês (Be Cool - KooBE, lendo-se de trás para frente, vira Ebook) tem como missão editar e dar visibilidade às obras técnicas de e autores que estão chegando ao mercado, bem como veteranos com seu Story Telling. Essa mescla de autores, com suas experiências e conhecimentos, trazem ao mercado uma gama de obras que atendem a todos os gostos e necessidades.
                </p>
            </div>
            <!--Grid column-->

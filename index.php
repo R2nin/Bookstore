@@ -10,6 +10,8 @@
  
  
  ?>      
+ <!-- Título Acervo adicionado aqui -->
+ <h2 class="text-center my-4">Acervo</h2>
         <div class="row mt-5">
             <?php foreach($allRows as $product) : ?>
                 <div class="col-lg-4 col-md-6 col-sm-10 offset-md-0 offset-sm-1">
