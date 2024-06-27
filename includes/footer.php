@@ -7,12 +7,10 @@
            <div class="row">
            <!--Grid column-->
            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-               <h5 class="text-uppercase">Bookstore</h5>
+               <h5 class="text-uppercase">KooBE</h5>
 
                <p>
-               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-               molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-               voluptatem veniam, est atque cumque eum delectus sint!
+               A Livraria KooBE (Brincadeira com o titulo seja legal em inglês (Be Cool)) tem como missão editar e dar visibilidade às obras literárias de escritores que estão chegando ao mercado, bem como veteranos com histórias para contar. Eles promovem a leitura e divulgam conteúdos que entretenham e inspirem os leitores, sempre com qualidade e estética exemplarA Livraria Litteris tem como missão editar e dar visibilidade às obras literárias de escritores que estão chegando ao mercado, bem como veteranos com histórias para contar. Eles promovem a leitura e divulgam conteúdos que entretenham e inspirem os leitores, sempre com qualidade e estética exemplar
                </p>
            </div>
            <!--Grid column-->
