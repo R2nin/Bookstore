@@ -86,7 +86,7 @@
               <script
                 src="https://checkout.stripe.com/checkout.js"
                 class="stripe-button"
-                data-key="pk_test_51M94h5Hp65tXrQ3PiYbpcRZmY8t09IMUrVwgrDjGlOXUJiGpK09MhKEAjzqZ2rBn13M46Hquv1fPneDRRMesw9AW00ws2aTeJC"
+                data-key="pk_test_51PWQfOCzB6EXniOImPn4QEywOKNlkpKT6bcgK6LeWKTg7wG4T7VRwINfcKECN2Q3Kf0YqzYbbYzNO2iIIIqAhlZf00gWGOYuKq"
                 
                 data-currency="usd"
                 data-label="pay now"
