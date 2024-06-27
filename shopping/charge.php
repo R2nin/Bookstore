@@ -28,7 +28,7 @@
 
           'source' => $_POST['stripeToken'],
           
-          'amount' => $_SESSION['price'],
+          'amount' => $_SESSION['price'] * 100,
           'currency' => 'usd',
         
         ]);
