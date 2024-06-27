@@ -10,7 +10,7 @@
                <h5 class="text-uppercase">KooBE</h5>
 
                <p>
-               A Livraria KooBE (Brincadeira com o titulo seja legal em inglês (Be Cool)) tem como missão editar e dar visibilidade às obras literárias de escritores que estão chegando ao mercado, bem como veteranos com histórias para contar. Eles promovem a leitura e divulgam conteúdos que entretenham e inspirem os leitores, sempre com qualidade e estética exemplarA Livraria Litteris tem como missão editar e dar visibilidade às obras literárias de escritores que estão chegando ao mercado, bem como veteranos com histórias para contar. Eles promovem a leitura e divulgam conteúdos que entretenham e inspirem os leitores, sempre com qualidade e estética exemplar
+               A Livraria KooBE (Brincadeira com o título "Seja Legal em inglês (Be Cool)) tem como missão editar e dar visibilidade às obras literárias de escritores que estão chegando ao mercado, bem como veteranos com histórias para contar. Eles promovem a leitura e divulgam conteúdos que entretenham e inspirem os leitores, sempre com qualidade e estética exempla
                </p>
            </div>
            <!--Grid column-->
