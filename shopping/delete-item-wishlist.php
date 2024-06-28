@@ -1,34 +1,34 @@
-<?php require  "../includes/header.php"; ?>
-<?php require  "../config/config.php"; ?>
+<?php
+// Inclui o arquivo de cabeçalho da página
+require "../includes/header.php";
 
-<?php 
+// Inclui o arquivo de configuração do sistema
+require "../config/config.php";
 
-    if($_SERVER['REQUEST_METHOD']=='GET' && realpath(__FILE__) == realpath( $_SERVER['SCRIPT_FILENAME'] ) ) {
-        /* 
-        Up to you which header to send, some prefer 404 even if 
-        the files does exist for security
-        */
-        header( 'HTTP/1.0 403 Forbidden', TRUE, 403 );
+// Verifica se o método de requisição é GET e se o arquivo atual é o mesmo que está sendo solicitado
+// Se for verdadeiro, retorna um erro 403 e redireciona o usuário para a página inicial do site
+if ($_SERVER['REQUEST_METHOD'] == 'GET' && realpath(__FILE__) == realpath($_SERVER['SCRIPT_FILENAME'])) {
+    header('HTTP/1.0 403 Forbidden', TRUE, 403);
+    die(header('location: ' . APPURL));
+}
 
-        /* choose the appropriate page to redirect users */
-        die( header( 'location: '.APPURL.'' ));
+// Verifica se o botão "delete" foi clicado
+if (isset($_POST['delete'])) {
+    // Obtém o ID do item a ser removido da lista de desejos
+    $id = $_POST['id'];
 
-    }
+    // Prepara a consulta SQL para remover o item da lista de desejos
+    $delete = $conn->prepare("DELETE FROM wishlist WHERE id='$id'");
 
-    if(isset($_POST['delete'])) {
-        $id = $_POST['id'];
+    // Executa a consulta SQL
+    $delete->execute();
+}
 
-        $delete = $conn->prepare("DELETE FROM wishlist WHERE id='$id'");
-        
-        $delete->execute();
-    }
+// Verifica se o usuário não está logado no sistema
+// Se não estiver, redireciona o usuário para a página inicial do site
+if (!isset($_SESSION['username'])) {
+    header("location: " . APPURL);
+}
 
-
-    if(!isset($_SESSION['username'])) {
-        header("location: ".APPURL."");
-    }
-
-?>
-
-
-<?php require  "../config/footer.php"; ?>
+// Inclui o arquivo de rodapé da página
+require "../config/footer.php";
